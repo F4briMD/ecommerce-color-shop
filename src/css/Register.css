@@ -1,0 +1,205 @@
+.container-register {
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.grid-register {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 1000px;
+    height: 75vh;
+    border-radius: .6em;
+    padding: 10px;
+    background: linear-gradient(90deg, #efd5ff 0%, #8d93f5
+            /*#515ada*/
+            100%);
+}
+
+.img-register {
+    background: url('https://cdni.iconscout.com/illustration/premium/thumb/stock-market-investment-4439476-3688222.png')no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.img-register span {
+    padding: 20px;
+    color: #8c728d;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+.main-registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+
+}
+
+.valt-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-registro form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 40px;
+    border-radius: .5em;
+    background-color: rgb(255, 255, 255, .6);
+
+}
+
+form h1 {
+    text-align: center;
+    font-size: 40px;
+    background: -webkit-linear-gradient(rgb(218, 105, 247), rgb(79, 11, 238));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.textlabel {
+    display: block;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #491a68;
+}
+
+.form-input {
+
+    outline: none;
+    color: rgb(143, 142, 142);
+    font-size: 16px;
+    padding: 6px;
+    display: flex;
+    width: 300px;
+}
+
+form input {
+
+    border: 2px solid #cacaca;
+    border-radius: .5em;
+    display: block;
+    font-size: 12px;
+    width: 100%;
+
+}
+
+.btn-form {
+
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+    border: none;
+    background-size: 200% auto;
+    color: #fff;
+    border-radius: .5em;
+    display: block;
+    box-shadow: 0 5px 15px rgba(79, 31, 167, 0.5);
+    transition: .5s;
+}
+
+.btn-form:hover {
+    background-image: linear-gradient(to left, #668de9 0%, #513183 51%, #224492 100%);
+    transition: .5s;
+}
+
+.error_form {
+    margin-bottom: 0;
+    color: red;
+}
+
+/*-------------------------------------------*/
+.title-login {
+    margin-bottom: 15px;
+}
+
+.main-login {
+    box-shadow: 0 5px 15px rgba(66, 65, 66, 0.5);
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: .5em;
+}
+
+.btn-login {
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+    border: none;
+    background-size: 200% auto;
+    color: #fff;
+    border-radius: .5em;
+    display: block;
+    box-shadow: 0 5px 15px rgba(79, 31, 167, 0.5);
+    transition: .5s;
+}
+
+.btn-login:hover {
+    background-image: linear-gradient(to left, #668de9 0%, #513183 51%, #224492 100%);
+    transition: .5s;
+}
+
+.login-input {
+    outline: none;
+    color: rgb(143, 142, 142);
+    font-size: 16px;
+    padding: 6px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.passw {
+    font-size: 12px;
+    text-align: right;
+    padding: 5px;
+}
+
+.error_login {
+    font-size: 14px;
+    color: red;
+    padding: 5px;
+}
+
+@media (max-width:1000px) {
+    .grid-register {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+/* 
+    .valt-cont {
+
+    } */
+    .img-register {
+        display: none;
+    
+}
+
+}
+
+
